@@ -2,9 +2,13 @@
 //
 
 #include <iostream>
-
+#include"user.h"
 int main()
 {
+	User us=User(1,24);
+	us.fing();
+
+
     std::cout << "Hello World!\n";
 }
 
